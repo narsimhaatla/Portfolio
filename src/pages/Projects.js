@@ -23,7 +23,7 @@ function Projects() {
                 </span>
             </p>
             <div className={style.a}>
-              <a href="https://github.com/DINESH-SRIHARI/Echo-Audio-Converter" target="blank">
+              <a href="https://github.com/narsimhaatla/Echoverse" target="blank">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="30"
@@ -60,7 +60,7 @@ function Projects() {
                 </span>
             </p>
             <div className={style.a}>
-              <a href="https://github.com/DINESH-SRIHARI/Echo-Audio-Converter" target="blank">
+              <a href="https://github.com/narsimhaatla/MarketBasketAnalysis" target="blank">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="30"
@@ -101,7 +101,7 @@ function Projects() {
                 </span>
             </p>
             <div className={style.a}>
-              <a href="https://github.com/DINESH-SRIHARI/flipkart-sale-analysis" target="blank">
+              <a href="https://github.com/narsimhaatla/FlipkartAnalysis" target="blank">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="30"
@@ -137,7 +137,7 @@ function Projects() {
                 </span>
             </p>
             <div className={style.a}>
-              <a href="https://github.com/DINESH-SRIHARI/Echo-Audio-Converter" target="blank">
+              <a href="https://github.com/narsimhaatla/behaviour-Analysis" target="blank">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="30"
