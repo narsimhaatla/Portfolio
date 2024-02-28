@@ -1,0 +1,26 @@
+.flex{
+    display: flex;
+}
+.fixed{
+    position: fixed;
+    right: 0;
+    margin-right: 40px;
+}
+.dark{
+    background-color: black;
+    color: beige;
+}
+.light{
+    background-color: aliceblue;
+    color: black;
+}
+.fle{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.fixe{
+    position: fixed;
+    bottom: 0;
+    margin-bottom: 40px;
+}

@@ -1,0 +1,80 @@
+.card{
+    width: 500px;
+    margin: 30px auto;
+}
+input{
+    
+    margin-top: 15px;
+    padding: 15px;
+    border-radius: 12px;
+    border: none;
+    box-shadow: 0 0 10px grey;
+    display: flex;
+    gap: 6px;
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12px;
+   align-items: center;
+}
+.margin{
+    margin-left: 3px;
+}
+.btn{
+    margin-top: 5px;
+    padding: 12px;
+    border-radius: 12px;
+    border: none;
+    border: 1px solid grey;
+    transition:0.5s;
+}
+.btn:hover{
+    padding: 14px;
+    background-color: blueviolet;
+    font-weight: 500;
+}
+@media (min-width:586px){
+    input{
+        width: 100%;
+    }
+}
+@media (max-width:586px){
+    input{
+        width: 80%;
+    }
+}
+@media (max-width:430px){
+  input{
+      width: 90%;
+  }
+}
+
+
+  .loade {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    display: block;
+    margin:15px auto;
+    position: relative;
+    color: #FFF;
+    box-sizing: border-box;
+    animation: animloader 1s linear infinite alternate;
+  }
+  
+  @keyframes animloader {
+    0% {
+      box-shadow: -38px -12px ,  -14px 0,  14px 0, 38px 0;
+    }
+    33% {
+      box-shadow: -38px 0px, -14px -12px,  14px 0, 38px 0;
+    }
+    66% {
+      box-shadow: -38px 0px , -14px 0, 14px -12px, 38px 0;
+    }
+    100% {
+      box-shadow: -38px 0 , -14px 0, 14px 0 , 38px -12px;
+    }
+  }
+ 

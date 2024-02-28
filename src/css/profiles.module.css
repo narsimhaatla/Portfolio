@@ -1,0 +1,26 @@
+
+.sticky{
+   align-items: center;
+    background-color: black;
+    width: 240px;
+    height: 40px;
+    border: 2px solid grey;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 30px;
+    animation: sliderit 1s ease forwards;
+}
+@keyframes sliderit {
+    0%{
+        transform: translateY(100px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+a{
+    color: grey;
+}
+a:hover{
+    color: aqua;
+}

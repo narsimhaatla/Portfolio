@@ -1,0 +1,36 @@
+
+@media (min-width:430px) {
+    .side{
+        display: block;
+        border: 2px solid purple;
+        width: 36px;
+        border-radius: 20%;
+        box-shadow: 2px 2px 2px 2px lightblue;
+        margin: 100px auto;
+        text-align: center;
+        transition:0.785s;
+        animation: sliderit 1s ease forwards;
+    }
+    @keyframes sliderit {
+        0%{
+            transform: translateX(-100px);
+        }
+        100%{
+            transform: translateX(0px);
+        }
+    }
+    .side:hover{
+        padding: 3px;
+    
+    }
+    .icon{
+        margin-left: 1px;
+        margin-right: 1px;
+        margin-bottom: 10px;
+    }
+}
+@media (max-width:430px) {
+    .side{
+        display: none;
+    }
+}

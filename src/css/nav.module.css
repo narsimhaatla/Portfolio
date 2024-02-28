@@ -1,0 +1,76 @@
+.nav{
+    display:  flex;
+    justify-content: space-around;
+    transition: 4s;
+}
+.nav a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+.img{
+    border-radius: 50%;
+    height: 60px;
+}
+imgd{
+    width: 10%;
+    
+}
+.bar{
+    display: flex;
+    width: 240px;
+    height: 40px;
+    border: 2px solid grey;
+    margin: 20px;
+    justify-content: space-around;
+    box-shadow: 0.5px 0.5px 1px 1px lightblue;
+    border-radius: 30px;
+    animation: slidetop 1s ease forwards;
+}
+.hov{
+    transition: 0.5s;
+    position: relative;
+}
+.hov::after{
+    content: ' ';
+    position: absolute;
+    bottom: 3px;
+    width: 0;
+    height: 2px;
+    left: 0;
+    background-color: grey;
+    transition: 1s;
+}
+.hov:hover::after{
+    text-decoration: none;
+    width: 100%;
+}
+.sticky{
+   
+    background-color: black;
+    width: 240px;
+    height: 40px;
+    border: 2px solid grey;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 30px;
+}
+.name{
+    animation: sliderit 1s ease forwards;
+}
+@keyframes sliderit {
+    0%{
+        transform: translateX(-100px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+}
+@keyframes slidetop {
+    0%{
+        transform: translatey(-100px);
+    }
+    100%{
+        transform: translatey(0px);
+    }
+}
